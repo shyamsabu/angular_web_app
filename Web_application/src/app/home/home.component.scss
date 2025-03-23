@@ -1,0 +1,51 @@
+.content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    .fltng_btn{
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+        width: 70px;
+        height: 70px;
+        background: #ccc;
+        color: #000;
+        font-size: 12px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        z-index: 1;
+        &:hover{
+            background: #ddd;
+        }
+    }
+
+    .round_bg{
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        bottom: -300px;
+        right: -300px;
+        background: #5affb352;
+        border-radius: 50%;    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button{
+            height:20px;
+            width:50px;
+        }
+        .btn {
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+        
+        .btn1 { top: 10%; left: 50%; }  /* Top */
+.btn2 { top: 30%; left: 90%; }  /* Right top */
+.btn3 { top: 70%; left: 90%; }  /* Right bottom */
+.btn4 { top: 90%; left: 50%; }  /* Bottom */
+.btn5 { top: 30%; left: 10%; }  
+    }
+    
+}

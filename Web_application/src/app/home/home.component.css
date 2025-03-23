@@ -1,0 +1,38 @@
+.content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.content .fltng_btn {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  width: 70px;
+  height: 70px;
+  background: #ccc;
+  color: #000;
+  font-size: 12px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.content .fltng_btn:hover {
+  background: #ddd;
+}
+.content .round_bg {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  bottom: -300px;
+  right: -300px;
+  background: rgba(90, 255, 179, 0.3215686275);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .round_bg button {
+  height: 20px;
+  width: 50px;
+}/*# sourceMappingURL=home.component.css.map */

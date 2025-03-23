@@ -1,0 +1,12 @@
+<div class="content">
+    <button type="button" class="fltng_btn" (click)="showDiv = !showDiv">Click</button>
+    <div *ngIf="showDiv" class="round_bg"  (wheel)="rotateOnScroll($event)" [ngStyle]="{'transform': 'rotate(' + rotationAngle + 'deg)'}">
+        <button class="btn btn1">Click</button>
+        <button class="btn btn2">Click</button>
+        <button class="btn btn3">Click</button>
+        <button class="btn btn4">Click</button>
+        <button class="btn btn5">Click</button>
+    
+    </div>
+      
+</div>
